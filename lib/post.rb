@@ -12,6 +12,12 @@ class Post
     @@all
   end
   
+  def author_name 
+    if Post.author
+      self.author.name 
+    end
+  end 
+  
    
 
 
